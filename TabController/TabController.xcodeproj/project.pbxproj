@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		82B29EC02E2DF6ED0079C87F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82B29EA12E2DF6EC0079C87F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B29EA82E2DF6EC0079C87F;
+			remoteInfo = TabController;
+		};
+		82B29ECA2E2DF6ED0079C87F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82B29EA12E2DF6EC0079C87F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B29EA82E2DF6EC0079C87F;
+			remoteInfo = TabController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82B29EA92E2DF6EC0079C87F /* TabController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82B29EBF2E2DF6ED0079C87F /* TabControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82B29EC92E2DF6ED0079C87F /* TabControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		82B29ED12E2DF6ED0079C87F /* Exceptions for "TabController" folder in "TabController" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 82B29EA82E2DF6EC0079C87F /* TabController */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		82B29EAB2E2DF6EC0079C87F /* TabController */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				82B29ED12E2DF6ED0079C87F /* Exceptions for "TabController" folder in "TabController" target */,
+			);
+			path = TabController;
+			sourceTree = "<group>";
+		};
+		82B29EC22E2DF6ED0079C87F /* TabControllerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TabControllerTests;
+			sourceTree = "<group>";
+		};
+		82B29ECC2E2DF6ED0079C87F /* TabControllerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TabControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82B29EA62E2DF6EC0079C87F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B29EBC2E2DF6ED0079C87F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B29EC62E2DF6ED0079C87F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82B29EA02E2DF6EC0079C87F = {
+			isa = PBXGroup;
+			children = (
+				82B29EAB2E2DF6EC0079C87F /* TabController */,
+				82B29EC22E2DF6ED0079C87F /* TabControllerTests */,
+				82B29ECC2E2DF6ED0079C87F /* TabControllerUITests */,
+				82B29EAA2E2DF6EC0079C87F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82B29EAA2E2DF6EC0079C87F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82B29EA92E2DF6EC0079C87F /* TabController.app */,
+				82B29EBF2E2DF6ED0079C87F /* TabControllerTests.xctest */,
+				82B29EC92E2DF6ED0079C87F /* TabControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82B29EA82E2DF6EC0079C87F /* TabController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82B29ED22E2DF6ED0079C87F /* Build configuration list for PBXNativeTarget "TabController" */;
+			buildPhases = (
+				82B29EA52E2DF6EC0079C87F /* Sources */,
+				82B29EA62E2DF6EC0079C87F /* Frameworks */,
+				82B29EA72E2DF6EC0079C87F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				82B29EAB2E2DF6EC0079C87F /* TabController */,
+			);
+			name = TabController;
+			packageProductDependencies = (
+			);
+			productName = TabController;
+			productReference = 82B29EA92E2DF6EC0079C87F /* TabController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82B29EBE2E2DF6ED0079C87F /* TabControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82B29ED72E2DF6ED0079C87F /* Build configuration list for PBXNativeTarget "TabControllerTests" */;
+			buildPhases = (
+				82B29EBB2E2DF6ED0079C87F /* Sources */,
+				82B29EBC2E2DF6ED0079C87F /* Frameworks */,
+				82B29EBD2E2DF6ED0079C87F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82B29EC12E2DF6ED0079C87F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				82B29EC22E2DF6ED0079C87F /* TabControllerTests */,
+			);
+			name = TabControllerTests;
+			packageProductDependencies = (
+			);
+			productName = TabControllerTests;
+			productReference = 82B29EBF2E2DF6ED0079C87F /* TabControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82B29EC82E2DF6ED0079C87F /* TabControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82B29EDA2E2DF6ED0079C87F /* Build configuration list for PBXNativeTarget "TabControllerUITests" */;
+			buildPhases = (
+				82B29EC52E2DF6ED0079C87F /* Sources */,
+				82B29EC62E2DF6ED0079C87F /* Frameworks */,
+				82B29EC72E2DF6ED0079C87F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82B29ECB2E2DF6ED0079C87F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				82B29ECC2E2DF6ED0079C87F /* TabControllerUITests */,
+			);
+			name = TabControllerUITests;
+			packageProductDependencies = (
+			);
+			productName = TabControllerUITests;
+			productReference = 82B29EC92E2DF6ED0079C87F /* TabControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82B29EA12E2DF6EC0079C87F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					82B29EA82E2DF6EC0079C87F = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					82B29EBE2E2DF6ED0079C87F = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 82B29EA82E2DF6EC0079C87F;
+					};
+					82B29EC82E2DF6ED0079C87F = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 82B29EA82E2DF6EC0079C87F;
+					};
+				};
+			};
+			buildConfigurationList = 82B29EA42E2DF6EC0079C87F /* Build configuration list for PBXProject "TabController" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82B29EA02E2DF6EC0079C87F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 82B29EAA2E2DF6EC0079C87F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82B29EA82E2DF6EC0079C87F /* TabController */,
+				82B29EBE2E2DF6ED0079C87F /* TabControllerTests */,
+				82B29EC82E2DF6ED0079C87F /* TabControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82B29EA72E2DF6EC0079C87F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B29EBD2E2DF6ED0079C87F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B29EC72E2DF6ED0079C87F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82B29EA52E2DF6EC0079C87F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B29EBB2E2DF6ED0079C87F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82B29EC52E2DF6ED0079C87F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82B29EC12E2DF6ED0079C87F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82B29EA82E2DF6EC0079C87F /* TabController */;
+			targetProxy = 82B29EC02E2DF6ED0079C87F /* PBXContainerItemProxy */;
+		};
+		82B29ECB2E2DF6ED0079C87F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82B29EA82E2DF6EC0079C87F /* TabController */;
+			targetProxy = 82B29ECA2E2DF6ED0079C87F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		82B29ED32E2DF6ED0079C87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8W3X4V83AW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TabController/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chitkara.TabController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82B29ED42E2DF6ED0079C87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8W3X4V83AW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TabController/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chitkara.TabController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		82B29ED52E2DF6ED0079C87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8W3X4V83AW;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82B29ED62E2DF6ED0079C87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8W3X4V83AW;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82B29ED82E2DF6ED0079C87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8W3X4V83AW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chitkara.TabControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabController.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TabController";
+			};
+			name = Debug;
+		};
+		82B29ED92E2DF6ED0079C87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8W3X4V83AW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chitkara.TabControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabController.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TabController";
+			};
+			name = Release;
+		};
+		82B29EDB2E2DF6ED0079C87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8W3X4V83AW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chitkara.TabControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TabController;
+			};
+			name = Debug;
+		};
+		82B29EDC2E2DF6ED0079C87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8W3X4V83AW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chitkara.TabControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TabController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82B29EA42E2DF6EC0079C87F /* Build configuration list for PBXProject "TabController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82B29ED52E2DF6ED0079C87F /* Debug */,
+				82B29ED62E2DF6ED0079C87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82B29ED22E2DF6ED0079C87F /* Build configuration list for PBXNativeTarget "TabController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82B29ED32E2DF6ED0079C87F /* Debug */,
+				82B29ED42E2DF6ED0079C87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82B29ED72E2DF6ED0079C87F /* Build configuration list for PBXNativeTarget "TabControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82B29ED82E2DF6ED0079C87F /* Debug */,
+				82B29ED92E2DF6ED0079C87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82B29EDA2E2DF6ED0079C87F /* Build configuration list for PBXNativeTarget "TabControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82B29EDB2E2DF6ED0079C87F /* Debug */,
+				82B29EDC2E2DF6ED0079C87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82B29EA12E2DF6EC0079C87F /* Project object */;
+}
